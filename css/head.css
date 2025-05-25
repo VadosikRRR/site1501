@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+.screen {
+  width: 1440; /* Родительский контейнер на всю ширину */
+}
+
+.screen .head {
+  position: relative;
+  height: 1272px;
+  width: 1440px;
+  background-image: url("../images/head/background/head_background.svg");
+}
+
+.screen .head .main_headline {
+  width: 575px;
+  height: 133px;
+  top: 50px;
+  left: 433px;
+  font-family: "Caveat", Helvetica;
+  color: #94515e;
+  font-size: 70px;
+  text-align: center;
+  position: absolute;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .head .main_headline .separator {
+  font-family: "Comfortaa", sans-serif;
+}
+
+.navigation {
+  position: absolute;
+  top: 35px;
+  left: 1226px;
+  transform: rotate(1.15deg);
+  height: auto;
+  width: auto;
+  display: flex; /* Добавлено */
+  justify-content: center; /* горизонтально */
+  align-items: center;     /* вертикально */
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nav_button {
+  position: relative;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  font-family: "Caveat", Helvetica;
+  color: #000000;
+  background: rgba(0,0,0,0);
+  font-size: 27px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .head .first_information {
+  width: 366px;
+  top: 256px;
+  left: 132px;
+  font-family: "Comfortaa", Helvetica;
+  color: #000000;
+  font-size: 16px;
+  position: absolute;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.gallery-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.gallery {
+  position: absolute;
+  width: 406px;
+  height: 446px;
+  top: 463px;
+  left: 198px;
+}
+
+.gallery img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.gallery img.active {
+  opacity: 1;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 665px;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0);
+  color: rgba(0, 0, 0, 0);
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.prev-btn { left: 135px; }
+.next-btn { left: 620px; }
+
+.screen .head .basic_information {
+  position: absolute;
+  width: 612px;
+  top: 503px;
+  left: 737px;
+  font-family: "Comfortaa", Helvetica;
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .head .basic_information .name_in_basic_text {
+  font-weight: 550;
+  font-size: 20px;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.screen .head .end_head_text {
+  position: absolute;
+  width: 1268px;
+  top: 1007px;
+  left: 86px;
+  text-align: justify;
+  font-family: "Comfortaa", Helvetica;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.screen .head .ellipse {
+  position: absolute;
+  width: 694px;
+  height: 668px;
+  top: 352px;
+  left: 0;
+  background-color: #eeabb7d1;
+  border-radius: 347px/334px;
+  filter: blur(60px);
+}
+
+.screen .head .arrow {
+  position: absolute;
+  width: 68px;
+  height: 274px;
+  top: 280px;
+  left: 13px;
+  background-image: url("../images/head/background/arrow.svg");
+}
+
+.screen .head .for_main_image{
+  position: absolute;
+  width: 537px;
+  height: 516;
+  top: 437px;
+  left: 129px;
+}

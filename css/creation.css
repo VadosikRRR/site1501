@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+.screen .creation {
+  width: 1440px;
+  height: 2211px;
+  position: relative;
+  top: -70px;
+  background-image: url("../images/creation/background/background.svg");
+  text-align: center;
+}
+
+.albom_title,
+.track_title {
+  position: relative;
+  font-family: "Caveat", Helvetica;
+  color: white;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.albom_title {
+  top: 50px;
+}
+
+.track_title {
+  margin-top: 420px;
+}
+
+.album1,
+.album2 {
+  position: absolute;
+  top: 121px;
+  width: 301px;
+}
+
+.album1 {
+  left: 301px;
+}
+
+.album2 {
+  right: 240px;
+}
+
+.image_background {
+  height: 321px;
+  width: 260px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center; /* горизонтально */
+  align-items: center;     /* вертикально */
+  flex-direction: column;
+}
+
+.track_image {
+  top: 10%;
+  max-width: 80%;
+  height: auto;
+}
+
+.track_name {
+  font-family: "Caveat", Helvetica;
+  color: black;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0;
+  white-space: nowrap; /* Запрет переноса */
+  max-width: 100%;      /* Ограничение по ширине контейнера */
+}
+
+.go_to_listen_button {
+  height: 37px;
+  width: 260px;
+  top: 5px;
+  background-color: #E3E0D9;
+  position: relative;
+  display: flex;
+  justify-content: center; /* горизонтально */
+  align-items: center;     /* вертикально */
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  text-decoration: none; /* Убирает подчеркивание */
+}
+
+.go_to_listen_text {
+  font-family: "Comfortaa", Helvetica;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.tracks {
+  position: absolute;
+  width: 1124px;
+  top: 598px;
+  left: 176px;     
+}
+
+.track_line {
+  position: relative;
+  margin-bottom: 22px;
+  display: flex;          /* Включаем Flexbox */
+  flex-direction: row;    /* Элементы в строку */
+  gap: 28px;  
+}
+
+.track {
+  position: relative;
+}

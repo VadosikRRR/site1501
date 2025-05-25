@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+.screen .end {
+  width: 1440px;
+  height: 688px;
+  position: relative;
+  top: -70px;
+  background-image: url("../images/end/background/background.svg");
+  text-align: center;
+}
+
+.end_title {
+  position: relative;
+  top: 64px;
+  font-family: "Caveat", Helvetica;
+  color: #94515E;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.workers {
+  position: absolute;
+  width: 1126px;
+  left: 152px;
+  top: 142px;
+  display: flex;          /* Включаем Flexbox */
+  flex-direction: row;    /* Элементы в строку */
+  gap: 50px;
+}
+
+.worker {
+  position: relative;
+  text-align: center;
+  width: 225px;
+  height: auto;
+  display: flex;
+  justify-content: center; /* горизонтально */
+  align-items: center;     /* вертикально */
+  flex-direction: column;
+  gap: 25px;
+}
+
+.ava {
+  position: relative;
+}
+
+.about_worker {
+  position: relative;
+  width: auto;
+  font-family: "Comfortaa", Helvetica;
+  color: black;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.nice_image {
+  position: absolute;
+  top: 336px;
+  left: 277px;
+  width: auto;
+  height: auto;
+}
+
+.contact{
+  position: absolute;
+  top: 387px;
+  left: 730px;
+  width: auto;
+  height: auto;
+  display: flex; /* Добавлено */
+  justify-content: center; /* горизонтально */
+  align-items: center;     /* вертикально */
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact_title,
+.reverse_form_title {
+  position: relative;
+  width: auto;
+  font-family: "Caveat", Helvetica;
+  color: #94515E;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.contact_buttons {
+  position: relative;
+  display: flex; /* Добавлено */
+  justify-content: center; /* горизонтально */
+  align-items: center;     /* вертикально */
+  flex-direction: row;
+  gap: 15px;
+}
+
+.reverse_form {
+  position: absolute;
+  top: 387px;
+  left: 1033px;
+  width: auto;
+  height: auto;
+  display: flex; /* Добавлено */
+  justify-content: center; /* горизонтально */
+  align-items: center;     /* вертикально */
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reverse_form_button {
+  position: relative;
+}
