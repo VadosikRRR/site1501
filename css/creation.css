@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
 .screen .creation {
-  width: 1440px;
-  height: 2211px;
+  width: 100.00vw;
+  height: 153.54vw;
   position: relative;
-  top: -70px;
+  top: -4.86vw;
   background-image: url("../images/creation/background/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
@@ -15,38 +17,38 @@
   position: relative;
   font-family: "Caveat", Helvetica;
   color: white;
-  font-size: 60px;
+  font-size: 4.17vw;
   font-weight: 400;
   letter-spacing: 0;
   margin: 0;
 }
 
 .albom_title {
-  top: 50px;
+  top: 3.47vw;
 }
 
 .track_title {
-  margin-top: 420px;
+  margin-top: 29.17vw;
 }
 
 .album1,
 .album2 {
   position: absolute;
-  top: 121px;
-  width: 301px;
+  top: 8.40vw;
+  width: 20.90vw;
 }
 
 .album1 {
-  left: 301px;
+  left: 20.90vw;
 }
 
 .album2 {
-  right: 240px;
+  right: 16.67vw;
 }
 
 .image_background {
-  height: 321px;
-  width: 260px;
+  height: 22.29vw;
+  width: 18.06vw;
   background-color: white;
   position: relative;
   display: flex;
@@ -57,14 +59,14 @@
 
 .track_image {
   top: 10%;
-  max-width: 80%;
+  width: 80%;
   height: auto;
 }
 
 .track_name {
   font-family: "Caveat", Helvetica;
   color: black;
-  font-size: 35px;
+  font-size: 2.43vw;
   font-weight: 400;
   letter-spacing: 0;
   margin: 0;
@@ -73,9 +75,9 @@
 }
 
 .go_to_listen_button {
-  height: 37px;
-  width: 260px;
-  top: 5px;
+  height: 2.57vw;
+  width: 18.06vw;
+  top: 0.35vw;
   background-color: #E3E0D9;
   position: relative;
   display: flex;
@@ -90,7 +92,7 @@
 .go_to_listen_text {
   font-family: "Comfortaa", Helvetica;
   color: black;
-  font-size: 16px;
+  font-size: 1.11vw;
   font-weight: 400;
   letter-spacing: 0;
   margin: 0;
@@ -98,17 +100,17 @@
 
 .tracks {
   position: absolute;
-  width: 1124px;
-  top: 598px;
-  left: 176px;     
+  width: 78.06vw;
+  top: 41.53vw;
+  left: 12.22vw;     
 }
 
 .track_line {
   position: relative;
-  margin-bottom: 22px;
+  margin-bottom: 1.53vw;
   display: flex;          /* Включаем Flexbox */
   flex-direction: row;    /* Элементы в строку */
-  gap: 28px;  
+  gap: 1.94vw;  
 }
 
 .track {

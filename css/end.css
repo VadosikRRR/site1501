@@ -2,20 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
 .screen .end {
-  width: 1440px;
-  height: 688px;
+  width: 100.00vw;
+  height: 47.78vw;
   position: relative;
-  top: -70px;
+  top: -4.86vw;
   background-image: url("../images/end/background/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
 .end_title {
   position: relative;
-  top: 64px;
+  top: 4.44vw;
   font-family: "Caveat", Helvetica;
   color: #94515E;
-  font-size: 35px;
+  font-size: 2.43vw;
   font-weight: 400;
   letter-spacing: 0;
   margin: 0;
@@ -23,28 +25,29 @@
 
 .workers {
   position: absolute;
-  width: 1126px;
-  left: 152px;
-  top: 142px;
+  width: 78.19vw;
+  left: 10.56vw;
+  top: 9.86vw;
   display: flex;          /* Включаем Flexbox */
   flex-direction: row;    /* Элементы в строку */
-  gap: 50px;
+  gap: 3.47vw;
 }
 
 .worker {
   position: relative;
   text-align: center;
-  width: 225px;
+  width: 15.62vw;
   height: auto;
   display: flex;
   justify-content: center; /* горизонтально */
   align-items: center;     /* вертикально */
   flex-direction: column;
-  gap: 25px;
+  gap: 1.74vw;
 }
 
 .ava {
   position: relative;
+  width: 65%;
 }
 
 .about_worker {
@@ -52,7 +55,7 @@
   width: auto;
   font-family: "Comfortaa", Helvetica;
   color: black;
-  font-size: 13px;
+  font-size: 0.90vw;
   font-weight: 400;
   letter-spacing: 0;
   margin: 0;
@@ -60,23 +63,23 @@
 
 .nice_image {
   position: absolute;
-  top: 336px;
-  left: 277px;
-  width: auto;
+  top: 23.33vw;
+  left: 19.24vw;
+  width: 22.64vw;
   height: auto;
 }
 
 .contact{
   position: absolute;
-  top: 387px;
-  left: 730px;
+  top: 26.88vw;
+  left: 50.69vw;
   width: auto;
   height: auto;
   display: flex; /* Добавлено */
   justify-content: center; /* горизонтально */
   align-items: center;     /* вертикально */
   flex-direction: column;
-  gap: 10px;
+  gap: 0.69vw;
 }
 
 .contact_title,
@@ -85,7 +88,7 @@
   width: auto;
   font-family: "Caveat", Helvetica;
   color: #94515E;
-  font-size: 30px;
+  font-size: 2.08vw;
   font-weight: 400;
   letter-spacing: 0;
   margin: 0;
@@ -97,22 +100,32 @@
   justify-content: center; /* горизонтально */
   align-items: center;     /* вертикально */
   flex-direction: row;
-  gap: 15px;
+  gap: 1.04vw;
+}
+
+.contact_button {
+  width: 3.13vw;
 }
 
 .reverse_form {
   position: absolute;
-  top: 387px;
-  left: 1033px;
+  top: 26.88vw;
+  left: 71.74vw;
   width: auto;
   height: auto;
   display: flex; /* Добавлено */
   justify-content: center; /* горизонтально */
   align-items: center;     /* вертикально */
   flex-direction: column;
-  gap: 15px;
+  gap: 1.04vw;
 }
 
 .reverse_form_button {
-  position: relative;
+  position: relative; 
+  width: 7.01vw;
+}
+
+.letter,
+.contact_button_image {
+  width: 100%;
 }

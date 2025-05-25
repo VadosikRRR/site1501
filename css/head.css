@@ -2,24 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
 .screen {
-  width: 1440; /* Родительский контейнер на всю ширину */
+  width: 100vw; /* Родительский контейнер на всю ширину */
 }
 
 .screen .head {
   position: relative;
-  height: 1272px;
-  width: 1440px;
+  height: 88.33vw;
+  width: 100.00vw;
   background-image: url("../images/head/background/head_background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .screen .head .main_headline {
-  width: 575px;
-  height: 133px;
-  top: 50px;
-  left: 433px;
+  width: 39.93vw;
+  height: 9.24vw;
+  top: 3vw;
+  left: 30.07vw;
   font-family: "Caveat", Helvetica;
   color: #94515e;
-  font-size: 70px;
+  font-size: 4.86vw;
   text-align: center;
   position: absolute;
   font-weight: 400;
@@ -33,8 +35,8 @@
 
 .navigation {
   position: absolute;
-  top: 35px;
-  left: 1226px;
+  top: 2vw;
+  left: 85.14vw;
   transform: rotate(1.15deg);
   height: auto;
   width: auto;
@@ -42,7 +44,7 @@
   justify-content: center; /* горизонтально */
   align-items: center;     /* вертикально */
   flex-direction: column;
-  gap: 15px;
+  gap: 1.04vw;
 }
 
 .nav_button {
@@ -53,7 +55,7 @@
   font-family: "Caveat", Helvetica;
   color: #000000;
   background: rgba(0,0,0,0);
-  font-size: 27px;
+  font-size: 1.88vw;
   text-align: center;
   font-weight: 400;
   letter-spacing: 0;
@@ -61,12 +63,12 @@
 }
 
 .screen .head .first_information {
-  width: 366px;
-  top: 256px;
-  left: 132px;
+  width: 25.42vw;
+  top: 17vw;
+  left: 9.17vw;
   font-family: "Comfortaa", Helvetica;
   color: #000000;
-  font-size: 16px;
+  font-size: 1.11vw;
   position: absolute;
   font-weight: 400;
   letter-spacing: 0;
@@ -75,16 +77,16 @@
 
 .gallery-container {
   position: relative;
-  max-width: 800px;
+  max-width: 55.56vw;
   margin: 0 auto;
 }
 
 .gallery {
   position: absolute;
-  width: 406px;
-  height: 446px;
-  top: 463px;
-  left: 198px;
+  width: 28.19vw;
+  height: 30.97vw;
+  top: 32.15vw;
+  left: 13.75vw;
 }
 
 .gallery img {
@@ -103,28 +105,28 @@
 .prev-btn,
 .next-btn {
   position: absolute;
-  top: 665px;
+  top: 46.18vw;
   transform: translateY(-50%);
   background: rgba(0,0,0,0);
   color: rgba(0, 0, 0, 0);
-  padding: 16px;
+  padding: 1.11vw;
   border: none;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 1.67vw;
 }
 
-.prev-btn { left: 135px; }
-.next-btn { left: 620px; }
+.prev-btn { left: 9.38vw; }
+.next-btn { left: 43.06vw; }
 
 .screen .head .basic_information {
   position: absolute;
-  width: 612px;
-  top: 503px;
-  left: 737px;
+  width: 42.50vw;
+  top: 34.93vw;
+  left: 51.18vw;
   font-family: "Comfortaa", Helvetica;
   color: #000000;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.25vw;
   text-align: justify;
   letter-spacing: 0;
   line-height: normal;
@@ -132,47 +134,49 @@
 
 .screen .head .basic_information .name_in_basic_text {
   font-weight: 550;
-  font-size: 20px;
+  font-size: 1.39vw;
   font-family: "Comfortaa", sans-serif;
 }
 
 .screen .head .end_head_text {
   position: absolute;
-  width: 1268px;
-  top: 1007px;
-  left: 86px;
+  width: 88.06vw;
+  top: 69.93vw;
+  left: 5.97vw;
   text-align: justify;
   font-family: "Comfortaa", Helvetica;
   color: #000000;
-  font-size: 18px;
+  font-size: 1.25vw;
   font-weight: 400;
   letter-spacing: 0;
 }
 
 .screen .head .ellipse {
   position: absolute;
-  width: 694px;
-  height: 668px;
-  top: 352px;
+  width: 48.19vw;
+  height: 46.39vw;
+  top: 24.44vw;
   left: 0;
   background-color: #eeabb7d1;
-  border-radius: 347px/334px;
-  filter: blur(60px);
+  border-radius: 24.10vw/23.19vw;
+  filter: blur(4.17vw);
 }
 
 .screen .head .arrow {
   position: absolute;
-  width: 68px;
-  height: 274px;
-  top: 280px;
-  left: 13px;
+  width: 4.72vw;
+  height: 19.03vw;
+  top: 19.44vw;
+  left: 0.90vw;
   background-image: url("../images/head/background/arrow.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .screen .head .for_main_image{
   position: absolute;
-  width: 537px;
-  height: 516;
-  top: 437px;
-  left: 129px;
+  width: 37.29vw;
+  height: 35.83vw;
+  top: 30.35vw;
+  left: 8.96vw;
 }

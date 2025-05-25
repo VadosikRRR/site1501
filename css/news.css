@@ -2,24 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
 .screen .news {
-  width: 1440px;
-  height: 1096px;
+  width: 100.00vw;
+  height: 76.11vw;
   position: relative;
-  top: -70px;
+  top: -4.86vw;
   background-image: url("../images/news/background/news_background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .screen .news .news_title {
-  width: 406px;
+  width: 28.19vw;
   position: relative;
   font-family: "Caveat", Helvetica;
-  font-weight: 400px;
+  font-weight: 27.78vw;
   color: black;
-  font-size: 70px;
+  font-size: 4.86vw;
   letter-spacing: 0;
   text-align: justify;
-  top: 35px;
-  left: 64px;
+  top: 2.43vw;
+  left: 4.44vw;
   line-height: normal;
 }
 
@@ -32,27 +34,27 @@
 .topic3,
 .topic4 {
   position: absolute;
-  left: 83px;
+  left: 5.76vw;
 }
 
 .topic1 {
-  width: 433px;
-  top: 210px;
+  width: 30.07vw;
+  top: 14.58vw;
 }
 
 .topic2 {
-  width: 416px;
-  top: 415px;
+  width: 28.89vw;
+  top: 28.82vw;
 }
 
 .topic3 {
-  width: 366px;
-  top: 690px;
+  width: 25.42vw;
+  top: 47.92vw;
 }
 
 .topic4 {
-  width: 460px;
-  top: 810px;
+  width: 31.94vw;
+  top: 56.25vw;
 }
 
 .short_text_topic1,
@@ -63,16 +65,16 @@
   line-height: normal;
   color: black;
   font-family: "Comfortaa", Helvetica;
-  font-size: 20px;
+  font-size: 1.39vw;
   font-weight: 400;
   letter-spacing: 0;
 }
 
 .unwrap_text_button {
   position: relative;
-  width: 157px;
-  height: 30px;
-  top: -5px;
+  width: 10.90vw;
+  height: 2.08vw;
+  top: -0.35vw;
   background-image: url("../images/news/icons/unwrap_button.svg");
   background-color: transparent; /* убирает серый фон */
   background-size: cover;         /* растягивает SVG на всю кнопку */
@@ -100,12 +102,12 @@
 
 .popup-content {
   background: #FFF9EF;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 1.39vw;
+  border-radius: 0.69vw;
   position: relative;
-  width: 500px;
+  width: 34.72vw;
   max-width: 80%;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.14vw 0.69vw rgba(0, 0, 0, 0.1);
 }
 
 .text_topic1,
@@ -118,7 +120,7 @@
   line-height: normal;
   color: black;
   font-family: "Comfortaa", Helvetica;
-  font-size: 20px;
+  font-size: 1.39vw;
   font-weight: 400;
   letter-spacing: 0;
 }
@@ -126,50 +128,50 @@
 .unwrap {
   color: black;
   font-family: "Comfortaa", Helvetica;
-  font-size: 18px;
+  font-size: 1.25vw;
   font-weight: 400;
   letter-spacing: 0;
   margin: 0;
 }
 
 .screen .news .news_images {
-  width: 302px;
-  top: 205px;
+  width: 20.97vw;
+  top: 14.24vw;
   position: absolute;
-  left: 1091px;
+  left: 75.76vw;
   line-height: normal;
   color: black;
   font-family: "Comfortaa", Helvetica;
-  font-size: 20px;
+  font-size: 1.39vw;
   font-weight: 400;
   letter-spacing: 0;
 }
 
 .screen .news .up_arrow {
   position: absolute;
-  width: 16px;
-  height: 29px;
-  top: 390px;
-  left: 1234px;
+  width: 1.11vw;
+  height: 2.01vw;
+  top: 27.08vw;
+  left: 85.69vw;
 }
 
 .screen .news .down_arrow {
   position: absolute;
-  width: 16px;
-  height: 29px;
-  top: 1040px;
-  left: 1234px;
+  width: 1.11vw;
+  height: 2.01vw;
+  top: 72.22vw;
+  left: 85.69vw;
 }
 
 .vertical_gallery {
   position: absolute;
-  width: 225px;
-  height: 600px;
-  top: 409px;
-  left: 1129px;
-  margin: 20px auto;
+  width: 15.62vw;
+  height: 41.67vw;
+  top: 28.40vw;
+  left: 78.40vw;
+  margin: 1.39vw auto;
   overflow: hidden;
-  border: 1px solid #ccc;
+  border: 0.07vw solid #ccc;
 }
 
 .photos_container {
@@ -180,24 +182,24 @@
 }
 
 .photo {
-  width: 225px;
-  height: 225px;
+  width: 15.62vw;
+  height: 15.62vw;
   object-fit: cover;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 0.69vw;
 }
 
 .scroll_up, .scroll_down {
   position: absolute;
   background: rgba(0,0,0,0);
-  left: 1220px;
+  left: 84.72vw;
   color: rgba(red, green, blue, 0);
   border: none;
-  padding: 15px 15px;
+  padding: 1.04vw 1.04vw;
   cursor: pointer;
   border-radius: 50%;
-  font-size: 24px;
+  font-size: 1.67vw;
 }
 
-.scroll_up { top: 375px; }
-.scroll_down { top: 1035px; }
+.scroll_up { top: 26.04vw; }
+.scroll_down { top: 71.88vw; }
