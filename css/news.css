@@ -76,12 +76,12 @@
   height: 2.08vw;
   top: -0.35vw;
   background-image: url("../images/news/icons/unwrap_button.svg");
-  background-color: transparent; /* убирает серый фон */
-  background-size: cover;         /* растягивает SVG на всю кнопку */
-  background-repeat: no-repeat;  /* предотвращает повторение фона */
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
-  justify-content: center; /* горизонтально */
-  align-items: center;     /* вертикально */
+  justify-content: center;
+  align-items: center;
   padding: 0;
   border: none;
   cursor: pointer;

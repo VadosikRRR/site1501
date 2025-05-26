@@ -28,8 +28,8 @@
   width: 78.19vw;
   left: 10.56vw;
   top: 9.86vw;
-  display: flex;          /* Включаем Flexbox */
-  flex-direction: row;    /* Элементы в строку */
+  display: flex;
+  flex-direction: row;
   gap: 3.47vw;
 }
 
@@ -39,8 +39,8 @@
   width: 15.62vw;
   height: auto;
   display: flex;
-  justify-content: center; /* горизонтально */
-  align-items: center;     /* вертикально */
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 1.74vw;
 }
@@ -75,9 +75,9 @@
   left: 50.69vw;
   width: auto;
   height: auto;
-  display: flex; /* Добавлено */
-  justify-content: center; /* горизонтально */
-  align-items: center;     /* вертикально */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 0.69vw;
 }
@@ -96,9 +96,9 @@
 
 .contact_buttons {
   position: relative;
-  display: flex; /* Добавлено */
-  justify-content: center; /* горизонтально */
-  align-items: center;     /* вертикально */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
   gap: 1.04vw;
 }
@@ -113,9 +113,9 @@
   left: 71.74vw;
   width: auto;
   height: auto;
-  display: flex; /* Добавлено */
-  justify-content: center; /* горизонтально */
-  align-items: center;     /* вертикально */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 1.04vw;
 }

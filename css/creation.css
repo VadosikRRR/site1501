@@ -52,8 +52,8 @@
   background-color: white;
   position: relative;
   display: flex;
-  justify-content: center; /* горизонтально */
-  align-items: center;     /* вертикально */
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -70,8 +70,8 @@
   font-weight: 400;
   letter-spacing: 0;
   margin: 0;
-  white-space: nowrap; /* Запрет переноса */
-  max-width: 100%;      /* Ограничение по ширине контейнера */
+  white-space: nowrap;
+  max-width: 100%;
 }
 
 .go_to_listen_button {
@@ -81,12 +81,12 @@
   background-color: #E3E0D9;
   position: relative;
   display: flex;
-  justify-content: center; /* горизонтально */
-  align-items: center;     /* вертикально */
+  justify-content: center;
+  align-items: center;
   padding: 0;
   border: none;
   cursor: pointer;
-  text-decoration: none; /* Убирает подчеркивание */
+  text-decoration: none;
 }
 
 .go_to_listen_text {
@@ -108,8 +108,8 @@
 .track_line {
   position: relative;
   margin-bottom: 1.53vw;
-  display: flex;          /* Включаем Flexbox */
-  flex-direction: row;    /* Элементы в строку */
+  display: flex;
+  flex-direction: row;
   gap: 1.94vw;  
 }
 

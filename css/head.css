@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
 .screen {
-  width: 100vw; /* Родительский контейнер на всю ширину */
+  width: 100vw;
 }
 
 .screen .head {
@@ -40,9 +40,9 @@
   transform: rotate(1.15deg);
   height: auto;
   width: auto;
-  display: flex; /* Добавлено */
-  justify-content: center; /* горизонтально */
-  align-items: center;     /* вертикально */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 1.04vw;
 }
