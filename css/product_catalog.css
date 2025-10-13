@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+.screen .product_catalog {
+  width: 100.00vw;
+  height: 78.06vw;
+  position: relative;
+  top: -4.86vw;
+  background-image: url("../images/product_catalog/background/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product_catalog_title {
+  position: absolute;
+  top: 2.08vw;
+  left: 5.97vw;
+  font-family: "Caveat", Helvetica;
+  color: black;
+  font-size: 4.17vw;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.cut_product,
+.pink_merch_product,
+.stars_project,
+.record_project,
+.kofta_product,
+.dark_light_red_product,
+.flowers_product,
+.green_product,
+.light_red_product,
+.cat_product,
+.tiger_product {
+  position: absolute;
+  height: auto;
+}
+
+.cut_product {
+  top: 8.75vw;
+  left: 3.47vw;
+  width: 17.64vw;
+}
+
+.pink_merch_product {
+  top: 8.40vw;
+  left: 24.79vw;
+  width: 18.06vw;
+}
+
+.stars_project {
+  top: 4.24vw;
+  left: 45.97vw;
+  width: 30.00vw;
+}
+
+.record_project {
+  top: 8.75vw;
+  left: 78.82vw;
+  width: 17.64vw;
+}
+
+.kofta_product {
+  top: 36.25vw;
+  left: 3.47vw;
+  width: 25.00vw;
+}
+
+.dark_light_red_product {
+  top: 38.19vw;
+  left: 29.93vw;
+  width: 21.53vw;
+}
+
+.flowers_product {
+  top: 38.19vw;
+  left: 55.21vw;
+  width: 21.53vw;
+}
+
+.green_product {
+  top: 56.11vw;
+  left: 29.93vw;
+  width: 21.53vw; 
+}
+
+.light_red_product {
+  top: 56.11vw;
+  left: 55.21vw;
+  width: 21.53vw; 
+}
+
+.cat_product {
+  top: 35.35vw;
+  left: 78.82vw;
+  width: 17.64vw; 
+}
+
+.tiger_product {
+  top: 50.35vw;
+  left: 78.82vw;
+  width: 17.64vw; 
+}
+
+.product_image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.go_to_buy_button {
+  width: 100%;
+  height: 2.08vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 0.14vw;
+  border-style: solid;
+  border-color: #FEEFD7;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.go_to_buy_text {
+  font-family: "Comfortaa", Helvetica;
+  color: black;
+  font-size: 1.04vw;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+.screen .creation {
+  width: 100.00vw;
+  height: 153.54vw;
+  position: relative;
+  top: -4.86vw;
+  background-image: url("../images/creation/background/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.albom_title,
+.track_title {
+  position: relative;
+  font-family: "Caveat", Helvetica;
+  color: white;
+  font-size: 4.17vw;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.albom_title {
+  top: 3.47vw;
+}
+
+.track_title {
+  margin-top: 29.17vw;
+}
+
+.album1,
+.album2 {
+  position: absolute;
+  top: 8.40vw;
+  width: 20.90vw;
+}
+
+.album1 {
+  left: 20.90vw;
+}
+
+.album2 {
+  right: 16.67vw;
+}
+
+.image_background {
+  height: 22.29vw;
+  width: 18.06vw;
+  background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.track_image {
+  top: 10%;
+  width: 80%;
+  height: auto;
+}
+
+.track_name {
+  font-family: "Caveat", Helvetica;
+  color: black;
+  font-size: 2.43vw;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.go_to_listen_button {
+  height: 2.57vw;
+  width: 18.06vw;
+  top: 0.35vw;
+  background-color: #E3E0D9;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.go_to_listen_text {
+  font-family: "Comfortaa", Helvetica;
+  color: black;
+  font-size: 1.11vw;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.tracks {
+  position: absolute;
+  width: 78.06vw;
+  top: 41.53vw;
+  left: 12.22vw;     
+}
+
+.track_line {
+  position: relative;
+  margin-bottom: 1.53vw;
+  display: flex;
+  flex-direction: row;
+  gap: 1.94vw;  
+}
+
+.track {
+  position: relative;
+}
